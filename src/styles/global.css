@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply bg-gray-900 text-gray-100;
+  -webkit-font-smoothing: antialiased
+}
+
+
+/* 
+  CMS = Content Management System
+
+  Wordpress: Traz tanto o painel de ADMIN quanto a parte visual do front-end (temas)
+  Headless CMS (GraphCMS): Painel de ADMIN (para o visual do site: dados fornecidos através de uma API REST ou GraphQL)
+  Desenvolvendo uma aplicação usando um React, por exemplo, que consome essa API do CMS
+  Ganhando maior flexibilidade para criar a interface ao desconectar o front-end do CMS
+
+  No GraphQL temos dois tipos de operações: query / mutation
+  query: Buscar dados
+  mutation: Criar, alterar ou deletar dados     
+*/
